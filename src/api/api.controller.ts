@@ -12,8 +12,8 @@ export class ApiController {
     const currentDay = moment().format('dddd');
     const utcTime = moment.utc().format('YYYY-MM-DDTHH:mm:ss[Z]');
     const githubFileUrl =
-      'https://github.com/username/repo/blob/main/file_name.ext';
-    const githubRepoUrl = 'https://github.com/username/repo';
+      'https://github.com/username/repo/blob/main/file_name.exthttps://github.com/Timadigwe/stage1_api/blob/master/src/api/api.controller.ts';
+    const githubRepoUrl = 'https://github.com/Timadigwe/stage1_api';
 
     const response = {
       slack_name: slackName,
